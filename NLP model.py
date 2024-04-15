@@ -16,9 +16,9 @@ from translate import Translator
 translator= Translator(to_lang="ru")
 index = 1
 
-train1 = pd.read_json("/Users/alikhansainov/Desktop/Архив/method 2/ml-Alikhan/train1.json", encoding = 'utf-8') # imdb train (50000)
-train2 = pd.read_json("/Users/alikhansainov/Desktop/Архив/method 2/ml-Alikhan/train2.json", encoding = 'utf-8') # hackaton train (8000)
-train3 = pd.read_json("/Users/alikhansainov/Desktop/Архив/method 2/ml-Alikhan/train3.json", encoding = 'utf-8') # answers of train1 & train2
+train1 = pd.read_json("train1.json", encoding = 'utf-8') # imdb train (50000)
+train2 = pd.read_json("train2.json", encoding = 'utf-8') # hackaton train (8000)
+train3 = pd.read_json("train3.json", encoding = 'utf-8') # answers of train1 & train2
 # train3 = pd.read_json("untitled.json", encoding = 'utf-8') # answers of train2 
 # train3 = pd.read_json("untitled2.json", encoding = 'utf-8') # answers of train1
 
